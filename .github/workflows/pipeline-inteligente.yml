@@ -40,8 +40,8 @@ jobs:
         with:
           name: meus-relatorios-oficiais
 
-      - name: Listar arquivos
+      - name: Listar estrutura
         run: ls -R
 
-      - name: Exibir conteúdo
+      - name: Mostrar conteúdo
         run: cat relatorio1.txt
